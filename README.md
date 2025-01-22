@@ -17,9 +17,9 @@ L'application propose une interface simple et intuitive :
 ## Captures d'écran 📸
 
 <div align="center">
-  <img src="./assets/home.png" alt="Écran principal" width="250" />
-  <img src="./assets/forecast.png" alt="Prévisions" width="250" />
-  <img src="./assets/search.png" alt="Recherche" width="250" />
+  <img src="./assets/Current.png" alt="current" width="250" />
+  <img src="./assets/Today.png" alt="today" width="250" />
+  <img src="./assets/Week.png" alt="weekly" width="250" />
 </div>
 
 ## Fonctionnalités ✨
