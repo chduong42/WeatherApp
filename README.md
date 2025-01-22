@@ -14,6 +14,14 @@ L'application propose une interface simple et intuitive :
   - Utilisez la barre de recherche avec autocomplétion pour trouver n'importe quelle ville
   - Les résultats incluent les noms complets des lieux avec pays
 
+## Captures d'écran 📸
+
+<div align="center">
+  <img src="./assets/home.png" alt="Écran principal" width="250" />
+  <img src="./assets/forecast.png" alt="Prévisions" width="250" />
+  <img src="./assets/search.png" alt="Recherche" width="250" />
+</div>
+
 ## Fonctionnalités ✨
 
 - **Météo en Temps Réel** 🌡️
