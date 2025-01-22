@@ -1,50 +1,102 @@
-# Welcome to your Expo app 👋
+# Weather App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Description
+Une application météo moderne et intuitive développée avec React Native et Expo, utilisant l'API Open-Meteo pour fournir des prévisions météorologiques précises et fiables. Cette application permet aux utilisateurs de consulter la météo actuelle et les prévisions pour n'importe quelle ville dans le monde.
 
-## Get started
+## Fonctionnalités
 
-1. Install dependencies
+- **Météo en Temps Réel**
+  - Température actuelle
+  - Conditions météorologiques
+  - Humidité et vitesse du vent
+  - Indice UV
 
+- **Prévisions**
+  - Prévisions horaires sur 24h
+  - Prévisions quotidiennes sur 7 jours
+  - Détails des précipitations
+
+- **Géolocalisation**
+  - Détection automatique de la position de l'utilisateur
+  - Recherche de villes par nom
+
+## Installation
+
+1. Clonez le repository
+   ```bash
+   git clone https://github.com/votre-username/weather-app.git
+   ```
+
+2. Installez les dépendances
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Lancez l'application
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Technologies Utilisées
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo](https://expo.dev) - Framework de développement React Native
+- [React Native](https://reactnative.dev) - Framework mobile
+- [Open-Meteo API](https://open-meteo.com/) - API météorologique gratuite
+- [React Navigation](https://reactnavigation.org/) - Navigation entre les écrans
+- [Expo Location](https://docs.expo.dev/versions/latest/sdk/location/) - Géolocalisation
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/) - Animations fluides
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Comment Utiliser
 
-## Get a fresh project
+L'application propose une interface simple et intuitive :
 
-When you're ready, run:
+- **Écran Principal** : Affiche la météo actuelle de votre position
+- **Prévisions Horaires** : Faites défiler horizontalement pour voir les prévisions heure par heure
+- **Prévisions Hebdomadaires** : Consultez les prévisions des 7 prochains jours
+- **Recherche** : Utilisez la barre de recherche pour trouver la météo d'autres villes
+- **Paramètres** : Personnalisez vos préférences (unités de mesure, notifications)
 
-```bash
-npm run reset-project
+## Environnement de Développement
+
+Vous pouvez exécuter l'application sur :
+- iOS (via simulateur ou appareil physique)
+- Android (via émulateur ou appareil physique)
+- [Expo Go](https://expo.dev/go)
+
+## Structure du Projet
+
+```
+app/
+├── components/     # Composants réutilisables
+│   ├── WeatherCard/
+│   ├── ForecastList/
+│   └── SearchBar/
+├── screens/       # Écrans de l'application
+│   ├── HomeScreen/
+│   ├── ForecastScreen/
+│   └── SearchScreen/
+├── services/      # Services API et utilitaires
+│   ├── api/
+│   └── location/
+├── assets/        # Images, fonts, icônes
+└── constants/     # Constants et configuration
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contribution
 
-## Learn more
+Si vous souhaitez contribuer au projet, n'hésitez pas à :
+1. Fork le projet
+2. Créer une branche pour votre fonctionnalité
+3. Commiter vos changements
+4. Push sur la branche
+5. Créer une Pull Request
 
-To learn more about developing your project with Expo, look at the following resources:
+## Contact
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Développé par [Votre Nom]
+- GitHub: [@votre-username](https://github.com/votre-username)
+- LinkedIn: [Votre Profil](https://linkedin.com/in/votre-profil)
 
-## Join the community
+## Licence
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
