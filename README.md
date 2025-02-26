@@ -1,4 +1,9 @@
 # Weather App ⛅️
+<div align="center">
+  <img src="./assets/Current.png" alt="current" width="250" />
+  <img src="./assets/Today.png" alt="today" width="250" />
+  <img src="./assets/Week.png" alt="weekly" width="250" />
+</div>
 
 ## Description 📱
 Une application météo moderne et intuitive développée avec React Native et Expo, utilisant l'API Open-Meteo pour les prévisions météorologiques et l'API Google Places pour la géolocalisation inverse. Cette application permet aux utilisateurs de consulter la météo actuelle et les prévisions pour n'importe quelle ville dans le monde, avec une localisation précise des lieux.
@@ -13,14 +18,6 @@ L'application propose une interface simple et intuitive :
 - **Recherche** 🔍 : 
   - Utilisez la barre de recherche avec autocomplétion pour trouver n'importe quelle ville
   - Les résultats incluent les noms complets des lieux avec pays
-
-## Captures d'écran 📸
-
-<div align="center">
-  <img src="./assets/Current.png" alt="current" width="250" />
-  <img src="./assets/Today.png" alt="today" width="250" />
-  <img src="./assets/Week.png" alt="weekly" width="250" />
-</div>
 
 ## Fonctionnalités ✨
 
